@@ -320,6 +320,21 @@
         <RunTimePermissions></RunTimePermissions>
         <Entities>
             <Entity
+             name="PTC.SimulatorItems.DS"
+             type="DataShape">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
              name="PTC.SimulatorDeviceProperties.DS"
              type="DataShape">
                 <VisibilityPermissions>
@@ -354,37 +369,22 @@
                 </RunTimePermissions>
             </Entity>
             <Entity
-             name="PTC.SimulatorDB.DS"
-             type="DataShape">
-                <VisibilityPermissions>
-                    <Visibility></Visibility>
-                </VisibilityPermissions>
-                <DesignTimePermissions>
-                    <Create></Create>
-                    <Read></Read>
-                    <Update></Update>
-                    <Delete></Delete>
-                    <Metadata></Metadata>
-                </DesignTimePermissions>
-                <RunTimePermissions></RunTimePermissions>
-            </Entity>
-            <Entity
-             name="PTC.SimulatorItems.DS"
-             type="DataShape">
-                <VisibilityPermissions>
-                    <Visibility></Visibility>
-                </VisibilityPermissions>
-                <DesignTimePermissions>
-                    <Create></Create>
-                    <Read></Read>
-                    <Update></Update>
-                    <Delete></Delete>
-                    <Metadata></Metadata>
-                </DesignTimePermissions>
-                <RunTimePermissions></RunTimePermissions>
-            </Entity>
-            <Entity
              name="PTC.SimulatorDeviceValues.DS"
+             type="DataShape">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
+             name="PTC.SimulatorDB.DS"
              type="DataShape">
                 <VisibilityPermissions>
                     <Visibility></Visibility>
